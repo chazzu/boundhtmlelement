@@ -1,0 +1,22 @@
+{
+  "name": "boundhtmlelement",
+  "version": "1.0.0",
+  "description": "Simple web component utility to help quickly make reusable, flexible web components",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chazzu/boundhtmlelement.git"
+  },
+  "keywords": [
+    "webcomponent",
+    "binding"
+  ],
+  "author": "Dustin Ashby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chazzu/boundhtmlelement/issues"
+  },
+  "homepage": "https://github.com/chazzu/boundhtmlelement#readme"
+}
