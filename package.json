@@ -1,10 +1,11 @@
 {
   "name": "boundhtmlelement",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple web component utility to help quickly make reusable, flexible web components",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "BoundHtmlElement.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chazzu/boundhtmlelement.git"

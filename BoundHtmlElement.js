@@ -1,4 +1,4 @@
-export class BoundHTMLElement extends HTMLElement {
+class BoundHtmlElement extends HTMLElement {
     constructor() {
         super()
         this.boundProperties = {}
@@ -241,3 +241,5 @@ export class BoundHTMLElement extends HTMLElement {
         })
     }
 }
+
+export default BoundHtmlElement
