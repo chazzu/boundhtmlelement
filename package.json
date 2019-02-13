@@ -1,6 +1,6 @@
 {
   "name": "boundhtmlelement",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple web component utility to help quickly make reusable, flexible web components",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

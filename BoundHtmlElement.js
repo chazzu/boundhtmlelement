@@ -49,13 +49,13 @@ class BoundHtmlElement extends HTMLElement {
                     Object.keys(value).forEach(key => {
                         if (!(key in newValue)) {
                             value[key] = ''
-                            if (element instanceof BoundHTMLElement)
+                            if (element instanceof BoundHtmlElement)
                                 element[key] = ''
                         }
                     })
                     Object.keys(newValue).forEach(key => {
                         value[key] = newValue[key]
-                        if (element instanceof BoundHTMLElement)
+                        if (element instanceof BoundHtmlElement)
                             element[key] = newValue[key]
                     })
                 }
@@ -67,7 +67,7 @@ class BoundHtmlElement extends HTMLElement {
         })
 
         value.boundProperties = []
-        if (!(element instanceof BoundHTMLElement)) {
+        if (!(element instanceof BoundHtmlElement)) {
             this.bindElements(element, value)
         }
     }
@@ -152,7 +152,7 @@ class BoundHtmlElement extends HTMLElement {
 
         while (parent.parentElement !== null && parent !== grandparent) {
             let attributes = parent.getAttributeNames()
-            if (parent instanceof BoundHTMLElement || attributes.includes('bind-repeat') || attributes.includes('bind-model'))
+            if (parent instanceof BoundHtmlElement || attributes.includes('bind-repeat') || attributes.includes('bind-model'))
                 return true
             parent = parent.parentElement
         }
